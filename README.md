@@ -1,6 +1,16 @@
 [![npm version](https://img.shields.io/npm/v/bunyan.svg?style=flat)](https://www.npmjs.com/package/bunyan)
 [![Build Status](https://travis-ci.org/trentm/node-bunyan.svg?branch=master)](https://travis-ci.org/trentm/node-bunyan)
 
+---
+
+:pushpin: **Scoop fork:** We've forked this repo to avoid having to install `dtrace-provider` since `npm install` installs `optionalDependencies` by default. See https://github.com/trentm/node-bunyan/issues/487 for more information.
+
+We've also modified some of the other dependencies that are installed to "shrink" the install size to what [Scoop](https://github.com/TakeScoop) needs.
+
+This package is published as `@scoop/bunyan` if you want to install it via `npm`.
+
+---
+
 Bunyan is **a simple and fast JSON logging library** for node.js services:
 
 ```js
